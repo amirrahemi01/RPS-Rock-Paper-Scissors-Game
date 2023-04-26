@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Amir First Project</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./img/icon.png">
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <div class="score-box">
+            <div id="user-label" class="badge">YOU</div>
+            <div id="bot-label" class="badge">BOT</div>
+            <span id="user-score">0</span>:<span id="bot-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Paper covers rock. You win</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="p">
+                <img src="./img/back-of-hand.png" alt="paper">
+            </div>
+
+            <div class="choice" id="r">
+                <img src="./img/raised-fist-hand.png" alt="rock">
+            </div>
+
+            <div class="choice" id="s">
+                <img src="./img/v-of-hand.png" alt="scissors">
+            </div>
+        </div>
+
+
+        <button id="f5" onclick="location.reload()">RESET</button>
+        <p id="action-message">Let's your move</p>
+
+        <!-- JS -->
+        <script src="./app.js" charset="utf=8"></script>
+    </body>
+</html>
